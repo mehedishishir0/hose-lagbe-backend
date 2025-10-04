@@ -5,7 +5,7 @@ const userRouter = require("express").Router();
 
 userRouter.get("/",userGet)
 userRouter.post("/login",login)
-userRouter.post("/sginup",sginUp)
+userRouter.post("/signup",sginUp)
 
 
 module.exports = userRouter
